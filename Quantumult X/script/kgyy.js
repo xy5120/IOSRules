@@ -8,13 +8,12 @@
 *******************************
 
 [rewrite_local]
-
-http:\/\/api\.chuangqi\.store\/ url script-response-body https://raw.githubusercontent.com/xy5120/IOS_Rule/main/Quantumult%20X/script/kgyy.js
+^http:\/\/vip\.kugou\.com\/mobile\/ url script-response-body https://raw.githubusercontent.com/xy5120/IOS_Rule/main/Quantumult%20X/script/kgyy.js
 
                             
 [mitm] 
 
-hostname = api.chuangqi.store
+hostname = vip.kugou.com
 
 *******************************/
 
