@@ -8,6 +8,7 @@
 *******************************
 
 [rewrite_local]
+
 ^https:\/\/gateway\.kugou\.com\/updateservice\/  url script-response-body https://raw.githubusercontent.com/xy5120/IOS_Rule/main/Quantumult-X/script/kgyy.js
 
                             
