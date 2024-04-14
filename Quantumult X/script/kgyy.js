@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-http:\/\/api\.chuangqi\.store\/ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zhsck.js
+http:\/\/api\.chuangqi\.store\/ url script-response-body https://raw.githubusercontent.com/xy5120/Quantumult X/script/kgyy.js
 
 [mitm] 
 
