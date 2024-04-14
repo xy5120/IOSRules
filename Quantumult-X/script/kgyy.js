@@ -17,5 +17,5 @@ hostname = gateway.kugou.com
 
 *******************************/
 
-body = $response.body.replace(/\"is_vip":\w+/g, '\"is_vip":1').replace(/\"svip_level":\d+/g, '\"svip_level":8')
+body = $response.body.replace(/\"is_vip":\w+/g, '\"is_vip":1')
 $done({body});
